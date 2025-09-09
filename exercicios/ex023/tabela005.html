@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        .destaque {
+            background-color: lightgreen;
+        }
+
+        col.cnome {
+            background-color: rgba(0, 255, 255, 0.322);
+        }
+
+
+
+        col.csexo {
+            background-color: red;
+        }
+
+        col.cprof {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo" span="2">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <h1>Exercício de tabela</h1>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana maria</td>
+            <td>Mulher</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Ana Julia</td>
+            <td>Mulher</td>
+            <td>32</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td>Daniela</td>
+            <td>Mulher</td>
+            <td>22</td>
+            <td>Designer</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>Homem</td>
+            <td>29</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Matheus</td>
+            <td>Homem</td>
+            <td>26</td>
+            <td>Autônomo</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
