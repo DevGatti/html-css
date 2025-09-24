@@ -8,7 +8,7 @@
 
 body,
 html {
-    background-color: lightblue;
+    background-color: lightgray;
 }
 
 header {
@@ -48,8 +48,8 @@ menu>ul>li>a {
     text-decoration: none;
     text-align: center;
     background-color: rgba(58, 58, 58, 0.514);
-    color: white;
-    border-top: 2px solid rgb(192, 192, 192);
+    color: rgb(236, 236, 236);
+    border-top: 2px solid rgba(0, 0, 0, 0.26);
 }
 
 menu>ul>li>a:hover {
