@@ -13,6 +13,7 @@ html {
 
 header {
     background-color: gray;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.37);
 }
 
 header>h1 {
@@ -36,6 +37,7 @@ i#burguer:hover {
 
 menu {
     display: none;
+    padding-bottom: 10px;
 }
 
 menu>ul {
@@ -49,11 +51,13 @@ menu>ul>li>a {
     text-align: center;
     background-color: rgba(58, 58, 58, 0.514);
     color: rgb(236, 236, 236);
-    border-top: 2px solid rgba(0, 0, 0, 0.26);
+    border: 2px solid rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
 }
 
 menu>ul>li>a:hover {
     background-color: rgba(128, 128, 128, 0.315);
+    font-size: 1.02em;
 }
 
 main {
