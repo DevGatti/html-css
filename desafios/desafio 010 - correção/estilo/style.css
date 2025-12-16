@@ -99,12 +99,11 @@ main {
 }
 
 main h1 {
-    min-width: 250px;
-    max-width: 800px;
     color: var(--cor5);
     font-family: var(--fonte-android);
     padding: 10px;
     font-weight: normal;
+    text-align: left;
 }
 
 main h2 {
