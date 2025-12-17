@@ -9,7 +9,7 @@
 
 body {
     background-color: white;
-    
+
 }
 
 header {
@@ -46,7 +46,7 @@ main>p {
 }
 
 div#container {
-    height: 50vw;
+    min-height: 50vw;
     width: auto;
     background-image: url(imagens/background001.jpg);
     background-repeat: no-repeat;
