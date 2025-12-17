@@ -9,6 +9,7 @@
 
 body {
     background-color: white;
+    
 }
 
 header {
@@ -46,7 +47,7 @@ main>p {
 
 div#container {
     height: 50vw;
-    width: 100vw;
+    width: auto;
     background-image: url(imagens/background001.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -74,7 +75,7 @@ div#container>p {
 div#container2 {
     background-image: url(imagens/background002.jpg);
     height: 50vw;
-    width: 100vw;
+    width: auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom right;
