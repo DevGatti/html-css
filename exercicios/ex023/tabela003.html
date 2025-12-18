@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+
+        /*Primeira Tabela*/
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 300px;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /*Segunda Tabela*/
+
+        .tab2 {
+            border-collapse: collapse;
+        }
+
+        .tab2 th {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        .periodo {
+            background-color: lightgray;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Mesclagem de Células</h1>
+
+    <table>
+        <tr>
+            <td>A</td>
+            <td colspan="2">B</td>
+            
+        </tr>
+        <tr>
+            <td rowspan="3">D</td>
+            <td>E</td>
+            <td rowspan="2">F</td>
+        </tr>
+        <tr>
+            
+            <td>H</td>
+            
+        </tr>
+        <tr>
+            
+            
+            <td colspan="2">M</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <h1>Tabela Escolar</h1>
+
+    <table class="tab2">
+        <!--Linha0-->
+        <tr>
+            <td colspan="6" class="periodo">Período da Manhã</td>
+        </tr>
+        <!--Linha1-->
+        <tr>
+            <th>Horários</th>
+            <th>Segunda</th>
+            <th>Terça</th>
+            <th>Quarta</th>
+            <th>Quinta</th>
+            <th>Sexta</th>
+        </tr>
+        <!--Linha2-->
+        <tr>
+            <td>8:00</td>
+            <td>Português</td>
+            <td rowspan="2">Matemática</td>
+            <td>Ciências</td>
+            <td>Química</td>
+            <td rowspan="2">Português</td>
+            
+        </tr>
+        <!--Linha3-->
+        <tr>
+            <td>9:00</td>
+            
+            
+            <td>Português</td>
+            <td>Artes</td>
+            <td rowspan="2">Matemática</td>
+        </tr>
+        <!--Linha4-->
+        <tr>
+            <td>10:00</td>
+            <td rowspan="2">Ciências</td>
+            <td>Português</td>
+            
+            <td>Matemática</td>
+            <td>Física</td>
+        </tr>
+        <!--Linha5-->
+        <tr>
+            <td>11:00</td>
+            <td>Química</td>
+            <td>Química</td>
+            <td>Artes</td>
+            <td>Ciências</td>
+        </tr>
+        <!--Linha6-->
+        <tr>
+            <td colspan="6" class="periodo">Período da Tarde</td>
+        </tr>
+
+        </tr>
+        <!--Linha7-->
+        <tr>
+            <th>Horários</th>
+            <th>Segunda</th>
+            <th>Terça</th>
+            <th>Quarta</th>
+            <th>Quinta</th>
+            <th>Sexta</th>
+        </tr>
+        <!--Linha8-->
+        <tr>
+            <td>13:00</td>
+            <td rowspan="2">Português</td>
+            <td rowspan="2">Matemática</td>
+            <td>Ciências</td>
+            <td>Química</td>
+            <td>Português</td>
+            
+        </tr>
+        <!--Linha9-->
+        <tr>
+            <td>14:00</td>
+            <td rowspan="2">Matemática</td>
+            <td>Português</td>
+            <td>Artes</td>
+
+        </tr>
+        <!--Linha10-->
+        <tr>
+            <td>15:00</td>
+            <td>Ciências</td>
+            <td>Português</td>
+            <td>Matemática</td>
+            <td rowspan="2">Física</td>
+        </tr>
+        <!--Linha11-->
+        <tr>
+            <td>16:00</td>
+            <td>Química</td>
+            <td>Química</td>
+            <td>Artes</td>
+            <td>Ciências</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
