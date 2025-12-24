@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1em;
+}
+/*250x515*/
+
+main {
+    height: 100vh;
+    background-color: lightblue;
+    position: relative;
+}
+
+section {
+    box-sizing: border-box;
+    width: 250px;
+    height: 515px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.836);
+    margin: auto;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+div#imagem>img {
+    height: 200px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#form {
+    padding: 10px;
+}
+
+div#form>h1 {
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+}
+
+div#form>h1:hover {
+    transform: rotatex(360deg) scale(1.5);
+    transition: 1.5s;
+} 
+
+div#form>p {
+    font-size: 0.7em;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+div.borda-login {
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: rebeccapurple;
+    width: 210px;
+    
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+}
+
+
+input.login {
+    box-sizing: border-box;
+    display: block;
+    border: none;
+    width: 99%;
+    background-color: aqua;
+
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+.botao {
+    box-sizing: border-box;
+    background-color: rgb(96, 194, 161);
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    border: none;
+    border: 1px solid;
+    width: 210px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.botao:hover {
+    background-color: rgb(72, 145, 121);
+}
+
+input#esqueci {
+    background-color: white;
+    color: rgb(76, 160, 132);
+    text-shadow: none;
+}
+
+input#esqueci:hover {
+    background-color: rgb(109, 216, 180);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
